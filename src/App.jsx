@@ -10,7 +10,7 @@ import Stopwatch from './Components/Stopwatch';
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename='/MiniReactVerse'>
 				<Navbar />
 
 				<div className="h-screen flex items-center justify-center">
